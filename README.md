@@ -1,29 +1,46 @@
-# Vladimir Khodyrev
+### Vladimir Khodyrev
 
-Senior Frontend Developer with 10 years of experience building production React and TypeScript applications. Based in Novi Sad, Serbia.
+Senior Frontend Engineer with 8+ years on React and TypeScript. I ship large production apps where performance is a hard requirement, own build infrastructure end-to-end, and write the internal tooling other engineers depend on.
 
-## What I work on
+Most recent: led a Webpack to Rspack migration solo. Bundle 165 MB to 11 MB. CI 30 to 13 minutes. Around $10K/month off infra. Custom plugins for both bundlers.
 
-- Web performance — bundle optimization, Core Web Vitals, build tooling (recently migrated a 165 MB Webpack build to 11 MB Rspack)
-- Scalable component architecture for large web applications
-- A/B testing and experimentation infrastructure
-- Currently maintaining a platform serving 300+ production landing pages; expanding into backend with Go
+Based in Novi Sad, Serbia. Remote.
 
-## Stack
+#### Frontend
 
-**Frontend:** React · TypeScript · JavaScript · Redux · Next.js · Vue.js · HTML5 · CSS3 · SASS
+React 18+, TypeScript 5+, JavaScript (ES2023+), Redux Toolkit, Zustand, TanStack Query, Context API, React Router, Next.js, HTML5, CSS3, SASS, Tailwind
 
-**Build & Performance:** Rspack · Webpack · Vite · Code Splitting · Lazy Loading · Core Web Vitals
+Also familiar: Vue.js
 
-**Testing & Monitoring:** Jest · Jasmine · Sentry · Grafana · Statsig · Feature Flags
+#### Build and tooling
 
-**Also:** Node.js · Go · REST APIs · CI/CD · Git
+Rspack, Webpack, Vite, esbuild, Astro, Babel, ESLint, Prettier, knip, oxlint, Yarn (v1-v4, workspaces, monorepo), npm, pnpm. Custom Webpack and Rspack plugins authored.
 
-## About public code
+#### Performance
 
-Most of my production work lives in private repositories under NDA. Public repos here are older side-projects and learning experiments — not representative of my current work. For a clearer picture of what I build, see my [LinkedIn](https://linkedin.com/in/khodyrevva).
+Core Web Vitals (LCP, INP, CLS), Lighthouse, Rsdoctor, Webpack Bundle Analyzer, source-map-explorer, Bundlephobia, code splitting, lazy loading, bundle budgets, runtime profiling
 
-## Connect
+#### Testing and observability
 
-- LinkedIn: [linkedin.com/in/khodyrevva](https://linkedin.com/in/khodyrevva)
-- Location: Novi Sad, Serbia (CET/CEST) — 4–6 hours daily overlap with US East Coast
+Jest, Jasmine, Sentry with source maps integration, Bitbucket Pipelines, CI/CD optimisation
+
+#### Experimentation
+
+Statsig, A/B testing infrastructure, feature flags, no-code experiment configuration tooling
+
+#### Architecture
+
+Multi-tenant systems, event-driven architecture, scalable client-side state, REST API integration, responsive and mobile-first design, cross-browser compatibility, platforms with 300+ independent production pages and dynamic data flows
+
+#### Backend and adjacent
+
+Node.js, Nest.js (real-time WebSocket services), REST, WebSockets, Go (multi-tenant services, LLM integrations with Claude and OpenAI APIs)
+
+#### AI workflow (daily)
+
+Claude Code and Codex (LLM-assisted) used daily for scaffolding, refactoring, debugging, prototyping. Backend automation with Claude and OpenAI APIs via Go side projects.
+
+#### Contact
+
+khodyrev.v.a@gmail.com  
+linkedin.com/in/khodyrevva
